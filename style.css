@@ -38,7 +38,9 @@ ul {
 }
 
 .main-nav .logo {
-  width: 110px;
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
 }
 
 .main-nav ul {
@@ -96,6 +98,7 @@ ul {
 }
 
 /* Showcase */
+
 .showcase {
   width: 100%;
   height: 500px;
@@ -118,7 +121,8 @@ ul {
   line-height: 0.9em;
   margin-bottom: 10px;
 }
-.showcase h2 {
+.showcase h2,
+.xbox h2 {
   font-weight: 600;
   font-size: 28px;
   color: #44457f !important;
@@ -126,7 +130,8 @@ ul {
   line-height: 1.5em;
   text-shadow: 0em 0.1em 0.1em rgba(0, 0, 0, 0.4);
 }
-.showcase p {
+.showcase p,
+.xbox p {
   line-height: 1.6em;
   color: #474747;
   font-size: 23px;
@@ -182,7 +187,8 @@ ul.c-group li img {
 .xbox {
   width: 110%;
   height: 550px;
-  background: url("img/xbox-one-s.jpg") no-repeat center center/cover;
+  background: url("img/augmented_reality_ar_virtual_reality_vr_enterprise_virtual_display_thinkstock_904479942-100749856-large-1080x675.jpg")
+    no-repeat center center/cover;
   border-radius: 2px;
   margin-bottom: 20px;
 }
@@ -201,7 +207,8 @@ ul.c-group li img {
 .carbon {
   width: 100%;
   height: 350px;
-  background: url("./img/carbon-negative.jpg") no-repeat center center/cover;
+  background: url("https://i.ibb.co/72cgtsz/carbon.jpg") no-repeat center
+    center/cover;
 }
 
 .carbon .content {
