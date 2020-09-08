@@ -209,6 +209,7 @@ ul.c-group li img {
   height: 350px;
   background: url("https://i.ibb.co/72cgtsz/carbon.jpg") no-repeat center
     center/cover;
+  margin-bottom: 30px;
 }
 
 .carbon .content {
