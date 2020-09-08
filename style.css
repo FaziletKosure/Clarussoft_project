@@ -368,5 +368,6 @@ video {
 
   .links .links-inner ul {
     margin-bottom: 20px;
+    text-align: center;
   }
 }
