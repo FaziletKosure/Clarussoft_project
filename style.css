@@ -82,6 +82,7 @@ ul {
   background: #262626;
   color: #fff;
   font-size: 15px;
+  border-radius: 5px;
 }
 
 .btn:hover {
@@ -95,6 +96,7 @@ ul {
 .dark .btn {
   background: #f4f4f4;
   color: #333;
+  border-radius: 5px;
 }
 
 /* Showcase */
