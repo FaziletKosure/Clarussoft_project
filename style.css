@@ -227,7 +227,9 @@ ul.c-group li img {
 .follow * {
   margin-right: 10px;
 }
-
+video {
+  margin: 0 auto;
+}
 /* Links */
 .links {
   background: #f2f2f2;
