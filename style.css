@@ -27,7 +27,6 @@ ul {
   margin: auto;
 }
 
-/* Nav */
 .main-nav {
   display: flex;
   align-items: center;
@@ -99,8 +98,6 @@ ul {
   border-radius: 5px;
 }
 
-/* Showcase */
-
 .showcase {
   width: 100%;
   height: 500px;
@@ -124,7 +121,7 @@ ul {
   margin-bottom: 10px;
 }
 .showcase h2,
-.xbox h2 {
+.box h2 {
   font-weight: 600;
   font-size: 28px;
   color: #44457f !important;
@@ -133,7 +130,7 @@ ul {
   text-shadow: 0em 0.1em 0.1em rgba(0, 0, 0, 0.4);
 }
 .showcase p,
-.xbox p {
+.box p {
   line-height: 1.6em;
   color: #474747;
   font-size: 23px;
@@ -156,7 +153,6 @@ ul.c-group li img {
   margin-left: 40px;
 }
 
-/* Home cards */
 .home-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -185,8 +181,7 @@ ul.c-group li img {
   margin-left: 10px;
 }
 
-/* Xbox */
-.xbox {
+.box {
   width: 110%;
   height: 550px;
   background: url("img/augmented_reality_ar_virtual_reality_vr_enterprise_virtual_display_thinkstock_904479942-100749856-large-1080x675.jpg")
@@ -195,17 +190,16 @@ ul.c-group li img {
   margin-bottom: 20px;
 }
 
-.xbox .content {
+.box .content {
   width: 40%;
   padding: 50px 0 0 30px;
 }
 
-.xbox p,
+.box p,
 .carbon p {
   margin: 10px 0 20px;
 }
 
-/* Carbon */
 .carbon {
   width: 100%;
   height: 350px;
@@ -219,7 +213,6 @@ ul.c-group li img {
   padding: 100px 0 0 30px;
 }
 
-/* Follow */
 .follow {
   display: flex;
   align-items: center;
@@ -233,7 +226,7 @@ ul.c-group li img {
 video {
   margin: 0 auto;
 }
-/* Links */
+
 .links {
   background: #f2f2f2;
   color: #616161;
@@ -256,7 +249,6 @@ video {
   line-height: 2.8;
 }
 
-/* Footer */
 .footer {
   background: #f2f2f2;
   color: #616161;
@@ -339,11 +331,11 @@ video {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .xbox .content p {
+  .box .content p {
     display: none;
   }
 
-  .xbox .content h2 {
+  .box .content h2 {
     margin-bottom: 20px;
   }
 
