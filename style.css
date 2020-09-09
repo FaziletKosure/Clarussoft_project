@@ -153,23 +153,23 @@ ul.c-group li img {
   margin-left: 40px;
 }
 
-.home-cards {
+.home-card {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   margin-bottom: 40px;
 }
 
-.home-cards img {
+.home-card img {
   width: 100%;
   margin-bottom: 20px;
 }
 
-.home-cards h3 {
+.home-card h3 {
   margin-bottom: 5px;
 }
 
-.home-cards a {
+.home-card a {
   display: inline-block;
   padding-top: 10px;
   color: #0067b8;
@@ -177,7 +177,7 @@ ul.c-group li img {
   font-weight: bold;
 }
 
-.home-cards a:hover i {
+.home-card a:hover i {
   margin-left: 10px;
 }
 
@@ -196,19 +196,19 @@ ul.c-group li img {
 }
 
 .box p,
-.carbon p {
+.natur p {
   margin: 10px 0 20px;
 }
 
-.carbon {
+.natur {
   width: 100%;
   height: 350px;
-  background: url("https://i.ibb.co/72cgtsz/carbon.jpg") no-repeat center
+  background: url("https://i.ibb.co/72cgtsz/natur.jpg") no-repeat center
     center/cover;
   margin-bottom: 30px;
 }
 
-.carbon .content {
+.natur .content {
   width: 55%;
   padding: 100px 0 0 30px;
 }
@@ -327,7 +327,7 @@ video {
     transform: translateX(-20px);
   }
 
-  .home-cards {
+  .home-card {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -339,7 +339,7 @@ video {
     margin-bottom: 20px;
   }
 
-  .carbon .content {
+  .natur .content {
     width: 85%;
   }
 
@@ -352,7 +352,7 @@ video {
   ul.c-group {
     grid-template-columns: repeat(2, 1fr);
   }
-  .home-cards {
+  .home-card {
     grid-template-columns: 1fr;
   }
 
